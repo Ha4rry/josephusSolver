@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>josephus problem.</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>josephus solver by harry</h1>
+    <label for="textBox">Amount of people (n): </label>
+    <input type="text" id="textBox" name="textBox" placeholder="Enter number here..." onchange onpropertychange onkeyuponpaste oninput="calcSurvivors()" onkeypress="return isNumberKey(event)">
+    <div><label for="answer">Survivor (J(n)): </label>
+    <span id="answerField" name="answerField"></span></div>
+   
+</body>
+</html>
